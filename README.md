@@ -6,7 +6,7 @@ A playable Windows x64 VST3 instrument for FL Studio and compatible hosts. 350 p
 
 ## Downloads
 
-Download the Windows installer from **Releases**. Close FL Studio before installing, then scan installed plugins and load **TODB BART SYNTH**.
+[**Download the Windows VST3 installer**](https://github.com/Terpytoine/TODB-BART-SYNTH/releases/download/v1.3.1/TODB-BART-SYNTH-1.3.1-Windows-VST3-Setup.exe) · [All release files and source archive](https://github.com/Terpytoine/TODB-BART-SYNTH/releases/tag/v1.3.1). Close FL Studio before installing, then scan installed plugins and load **TODB BART SYNTH**.
 
 ## Ownership
 
@@ -23,4 +23,5 @@ All 350 preset names, order, and settings are retained. Output is about 3.52 dB 
 ## Build from source
 
 Use Windows x64, Node.js and Zig 0.15.2. Run build.ps1 -Zig <path to zig.exe> in this folder. The prepared assets and dependencies are included. The Microsoft Edge WebView2 Runtime is required for the editor.
+
 
