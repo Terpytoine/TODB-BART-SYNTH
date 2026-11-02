@@ -1,0 +1,21 @@
+/* Existing hardware console, placed in the environment without moving its modules. */
+html,body{margin:0;min-width:1060px;min-height:780px;font:12px 'Segoe UI',sans-serif;color:#eee3f6}
+*,*::before,*::after{-webkit-user-select:none;user-select:none}
+input,textarea{-webkit-user-select:text;user-select:text}
+.synth-console{position:absolute;z-index:10;left:50%;bottom:8px;transform:translateX(-50%);width:min(1200px,calc(100% - 24px));min-width:1036px;min-height:0;background-attachment:local;isolation:isolate;box-shadow:inset 0 1px #878d7c55,inset 0 -5px #070906,0 10px 35px #000c}
+.synth-console:before,.synth-console:after{position:absolute}
+.synth-console>*{position:relative}
+.synth-console .case-screws{position:absolute;inset:0;pointer-events:none}
+.map-head{gap:5px}.map-head>span{font-size:8px;white-space:nowrap}.map-head #mapHelp{padding:2px 5px;min-width:20px;height:21px}
+.sequence-route{display:flex;align-items:center;gap:5px;margin-left:auto;max-width:230px}.sequence-route>span{font-size:8px;color:#40483c;white-space:nowrap}.sequence-route .pick{min-width:0;max-width:165px}.sequence-route .pick>button{font-size:8px}
+.map-hint{font-size:8px;color:#3b4538;margin:3px 0 4px;line-height:1.3}
+.screen-bezel{height:218px}
+@media(max-width:1120px){.synth-console{width:calc(100% - 12px);padding-left:22px;padding-right:22px}.sequence-route{max-width:175px}.sequence-route>span{display:none}.map-head>span{font-size:7px}}
+@media(max-height:860px){.synth-console{padding-top:9px;padding-bottom:8px}.synth-console header{height:64px}.synth-console .brand img{height:62px}.synth-console .display{height:64px}.synth-console main{height:380px;margin:8px 0}.synth-console .piano-panel{height:116px;padding-top:7px;padding-bottom:7px}.synth-console .key.white{height:82px}.synth-console .key.black{height:56px}.synth-console #keys{height:88px}.synth-console .screen-bezel{height:183px}.synth-console .right{overflow-y:auto}.synth-console .scope-panel{padding-top:4px;padding-bottom:4px}.synth-console footer{height:12px}.synth-console .train-badge img{height:48px}}
+
+.synth-console .screen-bezel{overflow:hidden;flex-shrink:0}.synth-console #map{width:100%;height:100%;display:block}.environment-arrival{transition:opacity .15s}@media(max-height:860px){body:not(.environment-exploring) .environment-arrival{opacity:0}}
+
+/* Fit the hardware panel into laptop-sized plugin windows. */
+html,body,body.environment-active{min-width:900px;min-height:640px}.sequence-route{display:none}.play-hint{margin-left:auto;font-size:8px;color:#4d5745}#route{display:none}.synth-console{zoom:var(--console-zoom,1);width:1060px;min-width:1060px}
+
+.pick[hidden]{display:none!important}

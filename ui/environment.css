@@ -1,0 +1,50 @@
+/* Scenery stays behind the existing hardware console. All character artwork is raster. */
+body.environment-active{margin:0;padding:0;border:0;border-radius:0;background:#100d15;box-shadow:none;min-width:1060px;min-height:780px;overflow:hidden}
+body.environment-active:before,body.environment-active:after{content:none}
+.environment-scene{position:fixed!important;inset:0;z-index:0;overflow:hidden;isolation:isolate;--environment-pulse:0;--environment-accent:#a376c5;color:#f0e7d5;font:12px 'Segoe UI',sans-serif}
+.environment-world{position:absolute;inset:0;background:#100d15}
+.environment-backdrop{position:absolute;inset:0;background-position:center center;background-size:cover;background-repeat:no-repeat}
+.environment-backdrop:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#0b051d15 0%,#08061008 36%,#03020746 100%);pointer-events:none}
+.environment-musical-light{position:absolute;inset:0;background:radial-gradient(ellipse at 44% 18%,#ac71e536,transparent 60%);opacity:calc(var(--environment-pulse)*.7);pointer-events:none;will-change:opacity}
+.environment-commuters{position:absolute;inset:0;pointer-events:none}
+.environment-person{position:absolute;top:0;left:0;pointer-events:none;will-change:transform;transform-origin:50% 100%}
+.environment-person-sprite{position:absolute;inset:0;background-image:url('npc-commuters.png');background-size:400% 300%;background-repeat:no-repeat;transform-origin:50% 85%;filter:drop-shadow(0 1px 1px #1008144d)}
+.environment-person-shadow{position:absolute;left:32%;right:32%;bottom:2%;height:5%;border-radius:50%;background:#100b0b55;filter:blur(2px)}
+.environment-character-bubble{position:absolute;left:50%;bottom:83%;width:114px;padding:6px 8px;transform:translateX(-50%);border-radius:8px 8px 8px 1px;background:#f0e6cded;border:1px solid #877254;color:#372b24;font:600 10px 'Segoe UI',sans-serif;text-align:center;line-height:1.3;box-shadow:0 2px 6px #0003}
+.environment-place{position:absolute;left:25px;bottom:22px;display:flex;flex-direction:column;gap:5px;padding:10px 13px;border-left:2px solid var(--environment-accent);background:#0c081ac7;box-shadow:0 3px 12px #0004;letter-spacing:.4px;pointer-events:none;opacity:0}
+.environment-place b{font-size:14px;font-weight:600}.environment-place span{font-size:10px;color:#c8bbcf}
+.environment-twon{position:absolute!important;z-index:42;width:145px;height:145px;padding:0!important;margin:0;border:0!important;background:none!important;box-shadow:none!important;cursor:pointer;transform:translate(-50%,-100%)}
+.environment-twon:before{content:none!important}.environment-twon-art{position:absolute;inset:0;background-image:url('twon-poses.png');background-size:300% 200%;background-repeat:no-repeat;filter:drop-shadow(0 3px 2px #0c080b55)}
+.environment-twon:after{content:'TWON';position:absolute;bottom:5px;left:40%;font:600 8px 'Segoe UI',sans-serif;letter-spacing:1px;border-radius:3px;padding:3px 5px;background:#160d22d1;border:1px solid #b1894b99;color:#f0d79a;opacity:0}
+.environment-twon:hover:after,.environment-twon:focus-visible:after{opacity:1}.environment-twon:focus-visible{outline:2px solid #edd38f!important;outline-offset:-12px;border-radius:30px}
+.environment-hotspot{position:absolute!important;z-index:43;width:24px;height:24px;border-radius:50%!important;padding:0!important;margin:0;background:#140c21b3!important;border:1px solid #d8b573b0!important;color:#efcd86!important;font:16px 'Segoe UI',sans-serif!important;box-shadow:0 0 0 4px #e4c68813!important;transform:translate(-50%,-50%);opacity:0;pointer-events:none}
+.environment-hotspot:before{content:none!important}.environment-hotspot:hover{background:#533664!important;border-color:#f2dfa2!important}.environment-hotspot:focus-visible{outline:2px solid #f2dfa2!important;outline-offset:3px}
+.environment-arrival{position:absolute;right:26px;top:67px;width:295px;padding:10px 13px 9px;background:linear-gradient(#29292c,#101013 18%,#090909 85%,#202022);border:2px solid #313136;border-radius:3px;box-shadow:0 5px 13px #0008,inset 0 1px #5e5e61,0 0 0 1px #09090a;z-index:45;pointer-events:none}
+.environment-arrival:before,.environment-arrival:after{content:'';position:absolute;bottom:100%;width:5px;height:18px;background:linear-gradient(90deg,#27272a,#68686a,#27272a);box-shadow:1px 0 #0007;left:25px}.environment-arrival:after{left:auto;right:25px}
+.environment-sign-top{display:flex;justify-content:space-between;gap:8px;padding-bottom:8px;color:#b4b4b6;font:600 8px 'Segoe UI',sans-serif;letter-spacing:.9px}
+.environment-sign-top b{font-weight:500}
+.environment-led-destination,.environment-led-detail{font-family:'Lucida Console',Consolas,monospace;font-weight:700;color:#ff7860;text-shadow:0 0 3px #f32d1266;letter-spacing:1px;background:#0a0707}
+.environment-led-destination{font-size:14px;line-height:20px;min-height:20px;overflow:hidden;text-overflow:clip;white-space:normal;padding-bottom:5px}
+.environment-led-detail{display:flex;justify-content:space-between;gap:5px;align-items:center;font-size:12px;padding-top:3px}.environment-led-detail b{font-weight:700;white-space:nowrap}
+.environment-arrival small{display:block;margin-top:8px;font-size:8px;letter-spacing:.5px;color:#8d8488;text-align:right}
+.environment-dock{position:fixed!important;top:9px;left:50%;transform:translateX(-50%);z-index:90;display:flex;align-items:center;gap:5px;width:max-content;max-width:calc(100vw - 30px);height:43px;padding:6px 8px;background:linear-gradient(180deg,#231c2cef,#120e19f5);border:1px solid #9c8352;border-radius:7px;box-shadow:0 3px 10px #0006,inset 0 1px #e8d7af15;color:#e3d8c5;font:11px 'Segoe UI',sans-serif}
+.environment-dock-brand{display:flex;flex-direction:column;padding:0 11px 0 4px;gap:3px;white-space:nowrap}.environment-dock-brand b{font-size:11px;letter-spacing:1.2px;color:#d7b985;font-weight:700}.environment-dock-brand span{font-size:7px;letter-spacing:.9px;color:#968aa4}
+.environment-dock button{height:29px;border:1px solid #5b4d64;border-radius:4px;background:linear-gradient(#342b3e,#211b2a);box-shadow:inset 0 1px #ffffff0b;color:#ded4e5;font:600 10px 'Segoe UI',sans-serif;padding:4px 9px;white-space:nowrap;transition:background .15s,border-color .15s}
+.environment-dock button:before{content:none!important}.environment-dock button:hover{background:#42304f;border-color:#ad8a53;color:#f5dfb1}.environment-dock button:focus-visible{outline:2px solid #ecd398;outline-offset:2px}.environment-dock button[aria-pressed=true],.environment-dock button[aria-checked=true]{background:#513965;border-color:#b58cbe;color:#f1dca7}
+.environment-dock .environment-arrow{width:29px;padding:0;font:22px 'Segoe UI',sans-serif}
+.environment-dock .environment-scene-picker{width:184px;text-align:left;color:#efdba5;border-color:#8f7951;overflow:hidden;text-overflow:ellipsis}
+.environment-motion-group{display:flex;align-items:center;gap:2px;border-left:1px solid #584365;padding-left:9px;margin-left:5px}.environment-motion-label{font-size:7px;letter-spacing:.7px;color:#b6a7bc;padding:0 4px}.environment-motion-group button{height:25px;padding:4px 6px;font-size:8px}
+.environment-dock .environment-midi-toggle{font-size:9px;margin-left:4px}.environment-dock .environment-explore{font-size:9px;color:#f0d29a;border-color:#967949;margin-left:2px}
+.environment-scene-menu{position:absolute;top:49px;left:169px;min-width:226px;max-height:320px;overflow:auto;padding:6px;background:linear-gradient(150deg,#2b2034,#15101d);border:1px solid #ab8c54;border-radius:6px;box-shadow:0 8px 25px #000b;scrollbar-color:#9573ad #1c1226;z-index:2}
+.environment-scene-menu button{display:block;width:100%;height:35px;margin:2px 0;text-align:left;border-color:transparent;background:none;font:11px 'Segoe UI',sans-serif;box-shadow:none}.environment-scene-menu button[aria-selected=true]{background:#513667;border-color:#987bad;color:#f3d8a3}.environment-scene-menu[hidden]{display:none}
+.environment-toast{position:fixed!important;bottom:23px;left:50%;z-index:120;max-width:440px;width:max-content;transform:translateX(-50%);padding:13px 18px;border:1px solid #b39862;border-radius:7px;background:#1b1127f5;box-shadow:0 5px 20px #0008;color:#efe0c2;font:12px/1.45 'Segoe UI',sans-serif;pointer-events:none}
+.environment-toast[hidden]{display:none}
+body.environment-exploring .synth-console{opacity:0!important;pointer-events:none!important;visibility:hidden;transform:translate(-50%,20px)!important}
+body.environment-exploring .environment-hotspot{opacity:.9;pointer-events:auto}
+body.environment-exploring .environment-place{opacity:1}
+body.environment-exploring .environment-dock .environment-explore{background:#664a71;border-color:#cda55c}
+body.environment-motion-off .environment-musical-light{opacity:0!important;will-change:auto}
+body.environment-motion-off .environment-person{will-change:auto}
+@media(max-width:1190px){.environment-dock-brand{display:none}.environment-scene-menu{left:35px}.environment-arrival{width:256px;right:15px;top:64px}.environment-led-destination{font-size:12px}.environment-twon{width:125px;height:125px}}
+@media(max-height:850px){.environment-arrival{top:64px;padding:7px 10px;width:253px}.environment-sign-top{padding-bottom:4px;font-size:7px}.environment-led-destination{font-size:12px;line-height:17px;min-height:17px}.environment-led-detail{font-size:10px}.environment-arrival small{margin-top:5px;font-size:7px}.environment-twon{width:110px;height:110px}.environment-dock{height:39px;top:6px}.environment-dock button{height:26px}.environment-place{bottom:14px;left:15px}}
+@media(prefers-reduced-motion:reduce){.environment-dock button{transition:none}.environment-musical-light{opacity:0!important}.environment-person{will-change:auto}}

@@ -1,0 +1,1388 @@
+{
+  "wave1": {
+    "label": "Waveform 1",
+    "options": [
+      "sine",
+      "triangle",
+      "sawtooth",
+      "square",
+      "pulse",
+      "wavetable"
+    ],
+    "value": "sawtooth"
+  },
+  "level1": {
+    "label": "Osc 1 level",
+    "min": 0,
+    "max": 1,
+    "value": 0.58,
+    "unit": "%",
+    "log": false
+  },
+  "octave1": {
+    "label": "Osc 1 octave",
+    "min": -3,
+    "max": 3,
+    "value": 0,
+    "unit": "",
+    "log": false
+  },
+  "fine1": {
+    "label": "Osc 1 fine",
+    "min": -100,
+    "max": 100,
+    "value": 0,
+    "unit": "ct",
+    "log": false
+  },
+  "phase1": {
+    "label": "Osc 1 phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "wave2": {
+    "label": "Waveform 2",
+    "options": [
+      "sine",
+      "triangle",
+      "sawtooth",
+      "square",
+      "pulse",
+      "wavetable"
+    ],
+    "value": "triangle"
+  },
+  "level2": {
+    "label": "Osc 2 level",
+    "min": 0,
+    "max": 1,
+    "value": 0.25,
+    "unit": "%",
+    "log": false
+  },
+  "octave2": {
+    "label": "Osc 2 octave",
+    "min": -3,
+    "max": 3,
+    "value": 0,
+    "unit": "",
+    "log": false
+  },
+  "fine2": {
+    "label": "Osc 2 fine",
+    "min": -100,
+    "max": 100,
+    "value": 7,
+    "unit": "ct",
+    "log": false
+  },
+  "phase2": {
+    "label": "Osc 2 phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "wave3": {
+    "label": "Waveform 3",
+    "options": [
+      "sine",
+      "triangle",
+      "sawtooth",
+      "square",
+      "pulse",
+      "wavetable"
+    ],
+    "value": "sine"
+  },
+  "level3": {
+    "label": "Osc 3 level",
+    "min": 0,
+    "max": 1,
+    "value": 0.4,
+    "unit": "%",
+    "log": false
+  },
+  "octave3": {
+    "label": "Osc 3 octave",
+    "min": -3,
+    "max": 3,
+    "value": -1,
+    "unit": "",
+    "log": false
+  },
+  "fine3": {
+    "label": "Osc 3 fine",
+    "min": -100,
+    "max": 100,
+    "value": 0,
+    "unit": "ct",
+    "log": false
+  },
+  "phase3": {
+    "label": "Osc 3 phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "pitch": {
+    "label": "Pitch",
+    "min": -24,
+    "max": 24,
+    "value": 0,
+    "unit": "st",
+    "log": false
+  },
+  "mix": {
+    "label": "Oscillator blend",
+    "min": 0,
+    "max": 1,
+    "value": 0.4,
+    "unit": "%",
+    "log": false
+  },
+  "detune": {
+    "label": "Detune",
+    "min": 0,
+    "max": 50,
+    "value": 7,
+    "unit": "ct",
+    "log": false
+  },
+  "pulse": {
+    "label": "Pulse width",
+    "min": 0.05,
+    "max": 0.95,
+    "value": 0.5,
+    "unit": "%",
+    "log": false
+  },
+  "morph": {
+    "label": "Wavetable position",
+    "min": 0,
+    "max": 1,
+    "value": 0.3,
+    "unit": "%",
+    "log": false
+  },
+  "fm": {
+    "label": "FM amount",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "am": {
+    "label": "AM amount",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "ring": {
+    "label": "Ring modulation",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "cross": {
+    "label": "Cross modulation",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "phaseMod": {
+    "label": "Phase modulation",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "sync": {
+    "label": "Oscillator sync",
+    "options": [
+      "off",
+      "hard",
+      "soft"
+    ],
+    "value": "off"
+  },
+  "noise": {
+    "label": "Noise",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "sub": {
+    "label": "Sub level",
+    "min": 0,
+    "max": 1,
+    "value": 0.45,
+    "unit": "%",
+    "log": false
+  },
+  "filter": {
+    "label": "Filter model",
+    "options": [
+      "lowpass",
+      "highpass",
+      "bandpass",
+      "notch",
+      "comb",
+      "ladder",
+      "aggressive"
+    ],
+    "value": "lowpass"
+  },
+  "cutoff": {
+    "label": "Cutoff",
+    "min": 30,
+    "max": 18000,
+    "value": 2300,
+    "unit": "Hz",
+    "log": true
+  },
+  "resonance": {
+    "label": "Resonance",
+    "min": 0.1,
+    "max": 25,
+    "value": 4,
+    "unit": "",
+    "log": false
+  },
+  "drive": {
+    "label": "Drive",
+    "min": 0,
+    "max": 1,
+    "value": 0.18,
+    "unit": "%",
+    "log": false
+  },
+  "keytrack": {
+    "label": "Key tracking",
+    "min": 0,
+    "max": 1,
+    "value": 0.4,
+    "unit": "%",
+    "log": false
+  },
+  "filterEnv": {
+    "label": "Filter envelope",
+    "min": -5,
+    "max": 5,
+    "value": 1.5,
+    "unit": "oct",
+    "log": false
+  },
+  "filterLfo": {
+    "label": "Filter LFO",
+    "min": 0,
+    "max": 4,
+    "value": 0.4,
+    "unit": "oct",
+    "log": false
+  },
+  "filterVelocity": {
+    "label": "Velocity → filter",
+    "min": 0,
+    "max": 3,
+    "value": 0.3,
+    "unit": "oct",
+    "log": false
+  },
+  "ampAttack": {
+    "label": "Attack",
+    "min": 0.001,
+    "max": 4,
+    "value": 0.008,
+    "unit": "s",
+    "log": true
+  },
+  "ampDecay": {
+    "label": "Decay",
+    "min": 0.01,
+    "max": 4,
+    "value": 0.28,
+    "unit": "s",
+    "log": true
+  },
+  "ampSustain": {
+    "label": "Sustain",
+    "min": 0,
+    "max": 1,
+    "value": 0.75,
+    "unit": "%",
+    "log": false
+  },
+  "ampRelease": {
+    "label": "Release",
+    "min": 0.01,
+    "max": 6,
+    "value": 0.2,
+    "unit": "s",
+    "log": true
+  },
+  "ampCurve": {
+    "label": "Envelope curve",
+    "min": 0.3,
+    "max": 3,
+    "value": 1.3,
+    "unit": "",
+    "log": false
+  },
+  "filterAttack": {
+    "label": "Attack",
+    "min": 0.001,
+    "max": 4,
+    "value": 0.015,
+    "unit": "s",
+    "log": true
+  },
+  "filterDecay": {
+    "label": "Decay",
+    "min": 0.01,
+    "max": 4,
+    "value": 0.35,
+    "unit": "s",
+    "log": true
+  },
+  "filterSustain": {
+    "label": "Sustain",
+    "min": 0,
+    "max": 1,
+    "value": 0.1,
+    "unit": "%",
+    "log": false
+  },
+  "filterRelease": {
+    "label": "Release",
+    "min": 0.01,
+    "max": 6,
+    "value": 0.4,
+    "unit": "s",
+    "log": true
+  },
+  "filterCurve": {
+    "label": "Envelope curve",
+    "min": 0.3,
+    "max": 3,
+    "value": 1.3,
+    "unit": "",
+    "log": false
+  },
+  "pitchAttack": {
+    "label": "Attack",
+    "min": 0.001,
+    "max": 4,
+    "value": 0.015,
+    "unit": "s",
+    "log": true
+  },
+  "pitchDecay": {
+    "label": "Decay",
+    "min": 0.01,
+    "max": 4,
+    "value": 0.35,
+    "unit": "s",
+    "log": true
+  },
+  "pitchSustain": {
+    "label": "Sustain",
+    "min": 0,
+    "max": 1,
+    "value": 0.1,
+    "unit": "%",
+    "log": false
+  },
+  "pitchRelease": {
+    "label": "Release",
+    "min": 0.01,
+    "max": 6,
+    "value": 0.4,
+    "unit": "s",
+    "log": true
+  },
+  "pitchCurve": {
+    "label": "Envelope curve",
+    "min": 0.3,
+    "max": 3,
+    "value": 1.3,
+    "unit": "",
+    "log": false
+  },
+  "modAttack": {
+    "label": "Attack",
+    "min": 0.001,
+    "max": 4,
+    "value": 0.015,
+    "unit": "s",
+    "log": true
+  },
+  "modDecay": {
+    "label": "Decay",
+    "min": 0.01,
+    "max": 4,
+    "value": 0.35,
+    "unit": "s",
+    "log": true
+  },
+  "modSustain": {
+    "label": "Sustain",
+    "min": 0,
+    "max": 1,
+    "value": 0.1,
+    "unit": "%",
+    "log": false
+  },
+  "modRelease": {
+    "label": "Release",
+    "min": 0.01,
+    "max": 6,
+    "value": 0.4,
+    "unit": "s",
+    "log": true
+  },
+  "modCurve": {
+    "label": "Envelope curve",
+    "min": 0.3,
+    "max": 3,
+    "value": 1.3,
+    "unit": "",
+    "log": false
+  },
+  "pitchEnv": {
+    "label": "Pitch envelope",
+    "min": -24,
+    "max": 24,
+    "value": 0,
+    "unit": "st",
+    "log": false
+  },
+  "modEnv": {
+    "label": "Mod envelope → FM",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "voiceMode": {
+    "label": "Voice mode",
+    "options": [
+      "mono",
+      "poly"
+    ],
+    "value": "mono"
+  },
+  "glideMode": {
+    "label": "Portamento",
+    "options": [
+      "legato",
+      "always",
+      "off"
+    ],
+    "value": "legato"
+  },
+  "glideCurve": {
+    "label": "Glide curve",
+    "options": [
+      "exponential",
+      "linear",
+      "logarithmic",
+      "smooth"
+    ],
+    "value": "exponential"
+  },
+  "glideTimeMode": {
+    "label": "Glide timing",
+    "options": [
+      "constant time",
+      "constant rate"
+    ],
+    "value": "constant time"
+  },
+  "glide": {
+    "label": "Glide time",
+    "min": 0.001,
+    "max": 2,
+    "value": 0.16,
+    "unit": "s",
+    "log": true
+  },
+  "glideAmount": {
+    "label": "Glide amount",
+    "min": 0,
+    "max": 1,
+    "value": 1,
+    "unit": "%",
+    "log": false
+  },
+  "glideAccel": {
+    "label": "Acceleration",
+    "min": 0.3,
+    "max": 3,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "glideDecel": {
+    "label": "Deceleration",
+    "min": 0.3,
+    "max": 3,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "slideSensitivity": {
+    "label": "Slide sensitivity",
+    "min": 0.1,
+    "max": 2,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "glideAttack": {
+    "label": "Attack during slide",
+    "min": 0,
+    "max": 1,
+    "value": 0.15,
+    "unit": "%",
+    "log": false
+  },
+  "glideFilter": {
+    "label": "Filter response",
+    "min": -3,
+    "max": 3,
+    "value": 0.5,
+    "unit": "oct",
+    "log": false
+  },
+  "glideVibrato": {
+    "label": "Slide vibrato",
+    "min": 0,
+    "max": 1,
+    "value": 0.15,
+    "unit": "%",
+    "log": false
+  },
+  "glideDrive": {
+    "label": "Slide saturation",
+    "min": 0,
+    "max": 1,
+    "value": 0.15,
+    "unit": "%",
+    "log": false
+  },
+  "glideRes": {
+    "label": "Slide resonance",
+    "min": 0,
+    "max": 10,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "bay": {
+    "label": "Bay glide",
+    "min": 0,
+    "max": 1,
+    "value": 0.55,
+    "unit": "%",
+    "log": false
+  },
+  "bendRange": {
+    "label": "Pitch bend range",
+    "min": 1,
+    "max": 24,
+    "value": 2,
+    "unit": "st",
+    "log": false
+  },
+  "bend": {
+    "label": "Pitch bend",
+    "min": -1,
+    "max": 1,
+    "value": 0,
+    "unit": "",
+    "log": false
+  },
+  "vibrato": {
+    "label": "Vibrato",
+    "min": 0,
+    "max": 1,
+    "value": 0.07,
+    "unit": "%",
+    "log": false
+  },
+  "lfo1Wave": {
+    "label": "LFO 1 shape",
+    "options": [
+      "sine",
+      "triangle",
+      "saw",
+      "reverse saw",
+      "square",
+      "random",
+      "sample & hold"
+    ],
+    "value": "sine"
+  },
+  "lfo1Rate": {
+    "label": "LFO 1 rate",
+    "min": 0.02,
+    "max": 25,
+    "value": 4.5,
+    "unit": "Hz",
+    "log": true
+  },
+  "lfo1Depth": {
+    "label": "LFO 1 depth",
+    "min": 0,
+    "max": 1,
+    "value": 0.12,
+    "unit": "%",
+    "log": false
+  },
+  "lfo1Phase": {
+    "label": "Phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "lfo1Fade": {
+    "label": "Fade in",
+    "min": 0,
+    "max": 5,
+    "value": 0,
+    "unit": "s",
+    "log": false
+  },
+  "lfo1Sync": {
+    "label": "Clock",
+    "options": [
+      "free",
+      "1/1",
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "value": "free"
+  },
+  "lfo1Retrigger": {
+    "label": "Retrigger",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo1OneShot": {
+    "label": "One shot",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo1Dest": {
+    "label": "Destination",
+    "options": [
+      "pitch",
+      "mix",
+      "cutoff",
+      "resonance",
+      "fm",
+      "am",
+      "ring",
+      "morph",
+      "pulse",
+      "noise",
+      "drive",
+      "sub",
+      "delayTime",
+      "feedback",
+      "delayMix",
+      "reverb",
+      "chorus",
+      "phaser",
+      "pan",
+      "master"
+    ],
+    "value": "pitch"
+  },
+  "lfo2Wave": {
+    "label": "LFO 2 shape",
+    "options": [
+      "sine",
+      "triangle",
+      "saw",
+      "reverse saw",
+      "square",
+      "random",
+      "sample & hold"
+    ],
+    "value": "sine"
+  },
+  "lfo2Rate": {
+    "label": "LFO 2 rate",
+    "min": 0.02,
+    "max": 25,
+    "value": 0.6,
+    "unit": "Hz",
+    "log": true
+  },
+  "lfo2Depth": {
+    "label": "LFO 2 depth",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "lfo2Phase": {
+    "label": "Phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "lfo2Fade": {
+    "label": "Fade in",
+    "min": 0,
+    "max": 5,
+    "value": 0,
+    "unit": "s",
+    "log": false
+  },
+  "lfo2Sync": {
+    "label": "Clock",
+    "options": [
+      "free",
+      "1/1",
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "value": "free"
+  },
+  "lfo2Retrigger": {
+    "label": "Retrigger",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo2OneShot": {
+    "label": "One shot",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo2Dest": {
+    "label": "Destination",
+    "options": [
+      "pitch",
+      "mix",
+      "cutoff",
+      "resonance",
+      "fm",
+      "am",
+      "ring",
+      "morph",
+      "pulse",
+      "noise",
+      "drive",
+      "sub",
+      "delayTime",
+      "feedback",
+      "delayMix",
+      "reverb",
+      "chorus",
+      "phaser",
+      "pan",
+      "master"
+    ],
+    "value": "cutoff"
+  },
+  "lfo3Wave": {
+    "label": "LFO 3 shape",
+    "options": [
+      "sine",
+      "triangle",
+      "saw",
+      "reverse saw",
+      "square",
+      "random",
+      "sample & hold"
+    ],
+    "value": "sine"
+  },
+  "lfo3Rate": {
+    "label": "LFO 3 rate",
+    "min": 0.02,
+    "max": 25,
+    "value": 0.8999999999999999,
+    "unit": "Hz",
+    "log": true
+  },
+  "lfo3Depth": {
+    "label": "LFO 3 depth",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "lfo3Phase": {
+    "label": "Phase",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "lfo3Fade": {
+    "label": "Fade in",
+    "min": 0,
+    "max": 5,
+    "value": 0,
+    "unit": "s",
+    "log": false
+  },
+  "lfo3Sync": {
+    "label": "Clock",
+    "options": [
+      "free",
+      "1/1",
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16"
+    ],
+    "value": "free"
+  },
+  "lfo3Retrigger": {
+    "label": "Retrigger",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo3OneShot": {
+    "label": "One shot",
+    "options": [
+      "off",
+      "on"
+    ],
+    "value": "off"
+  },
+  "lfo3Dest": {
+    "label": "Destination",
+    "options": [
+      "pitch",
+      "mix",
+      "cutoff",
+      "resonance",
+      "fm",
+      "am",
+      "ring",
+      "morph",
+      "pulse",
+      "noise",
+      "drive",
+      "sub",
+      "delayTime",
+      "feedback",
+      "delayMix",
+      "reverb",
+      "chorus",
+      "phaser",
+      "pan",
+      "master"
+    ],
+    "value": "pan"
+  },
+  "delayTime": {
+    "label": "Delay time",
+    "min": 0.02,
+    "max": 1.5,
+    "value": 0.28,
+    "unit": "s",
+    "log": false
+  },
+  "feedback": {
+    "label": "Delay feedback",
+    "min": 0,
+    "max": 0.86,
+    "value": 0.3,
+    "unit": "%",
+    "log": false
+  },
+  "delayMix": {
+    "label": "Delay mix",
+    "min": 0,
+    "max": 1,
+    "value": 0.16,
+    "unit": "%",
+    "log": false
+  },
+  "delayMode": {
+    "label": "Delay",
+    "options": [
+      "stereo",
+      "ping-pong"
+    ],
+    "value": "ping-pong"
+  },
+  "reverb": {
+    "label": "Reverb mix",
+    "min": 0,
+    "max": 1,
+    "value": 0.2,
+    "unit": "%",
+    "log": false
+  },
+  "reverbSize": {
+    "label": "Reverb decay",
+    "min": 0.3,
+    "max": 5,
+    "value": 2.2,
+    "unit": "s",
+    "log": false
+  },
+  "chorus": {
+    "label": "Chorus",
+    "min": 0,
+    "max": 1,
+    "value": 0.08,
+    "unit": "%",
+    "log": false
+  },
+  "flanger": {
+    "label": "Flanger",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "phaser": {
+    "label": "Phaser",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "bitcrusher": {
+    "label": "Bitcrusher",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "saturation": {
+    "label": "Saturation",
+    "min": 0,
+    "max": 1,
+    "value": 0.1,
+    "unit": "%",
+    "log": false
+  },
+  "compressor": {
+    "label": "Compression",
+    "min": 0,
+    "max": 1,
+    "value": 0.3,
+    "unit": "%",
+    "log": false
+  },
+  "eq": {
+    "label": "Tone EQ",
+    "min": -12,
+    "max": 12,
+    "value": 0,
+    "unit": "dB",
+    "log": false
+  },
+  "width": {
+    "label": "Stereo width",
+    "min": 0,
+    "max": 1,
+    "value": 0.65,
+    "unit": "%",
+    "log": false
+  },
+  "pan": {
+    "label": "Pan",
+    "min": -1,
+    "max": 1,
+    "value": 0,
+    "unit": "",
+    "log": false
+  },
+  "master": {
+    "label": "Master volume",
+    "min": 0,
+    "max": 1,
+    "value": 0.65,
+    "unit": "%",
+    "log": false
+  },
+  "space": {
+    "label": "Space",
+    "min": 0,
+    "max": 1,
+    "value": 0.2,
+    "unit": "%",
+    "log": false
+  },
+  "chaos": {
+    "label": "Chaos",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "trainSpeed": {
+    "label": "Train speed",
+    "min": 0,
+    "max": 1,
+    "value": 0.25,
+    "unit": "%",
+    "log": false
+  },
+  "arp": {
+    "label": "Arpeggiator",
+    "options": [
+      "off",
+      "up",
+      "down",
+      "up/down",
+      "random",
+      "order",
+      "random walk",
+      "BART route"
+    ],
+    "value": "off"
+  },
+  "arpOctaves": {
+    "label": "Arp octaves",
+    "min": 1,
+    "max": 4,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "rate": {
+    "label": "Clock division",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/32"
+    ],
+    "value": "1/16"
+  },
+  "gate": {
+    "label": "Gate",
+    "min": 0.05,
+    "max": 1,
+    "value": 0.7,
+    "unit": "%",
+    "log": false
+  },
+  "noteLength": {
+    "label": "Note length",
+    "min": 0.1,
+    "max": 2,
+    "value": 1,
+    "unit": "",
+    "log": false
+  },
+  "swing": {
+    "label": "Swing",
+    "min": 0,
+    "max": 0.65,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "probability": {
+    "label": "Probability",
+    "min": 0,
+    "max": 1,
+    "value": 1,
+    "unit": "%",
+    "log": false
+  },
+  "randomness": {
+    "label": "Randomness",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "seqDirection": {
+    "label": "Sequence direction",
+    "options": [
+      "forward",
+      "reverse",
+      "random"
+    ],
+    "value": "forward"
+  },
+  "tempo": {
+    "label": "Tempo",
+    "min": 30,
+    "max": 240,
+    "value": 108,
+    "unit": "BPM",
+    "log": false
+  },
+  "sustain": {
+    "label": "Sustain pedal",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "",
+    "log": false
+  },
+  "instrument": {
+    "label": "Sound engine",
+    "options": [
+      "Analog",
+      "808",
+      "FM Bell",
+      "Toy Piano",
+      "Trap Piano",
+      "Glass",
+      "Pluck",
+      "Organ",
+      "Sample"
+    ],
+    "value": "Analog"
+  },
+  "tone": {
+    "label": "Strike brightness",
+    "min": 0,
+    "max": 1,
+    "value": 0.5,
+    "unit": "%",
+    "log": false
+  },
+  "material": {
+    "label": "Harmonic character",
+    "min": 0,
+    "max": 1,
+    "value": 0.4,
+    "unit": "%",
+    "log": false
+  },
+  "body": {
+    "label": "Resonance length",
+    "min": 0,
+    "max": 1,
+    "value": 0.5,
+    "unit": "%",
+    "log": false
+  },
+  "trainEnvelope": {
+    "label": "Map envelope",
+    "options": [
+      "amp",
+      "filter",
+      "pitch",
+      "mod"
+    ],
+    "value": "amp"
+  },
+  "sample": {
+    "label": "Sample source",
+    "options": [
+      "Element / Mid Pluck",
+      "Bass / 80's",
+      "Bass / Acid Test",
+      "Bass / Big Boy",
+      "Bass / Big Man",
+      "Bass / Big Shot",
+      "Bass / Bulley",
+      "Bass / Feel Good",
+      "Bass / Funky",
+      "Bass / Hardcore",
+      "Bass / Harmony",
+      "Bass / Home Buyer",
+      "Bass / King",
+      "Bass / Monster",
+      "Bass / Move",
+      "Bass / Old Age",
+      "Bass / Outback",
+      "Bass / Pipe Up",
+      "Bass / Puppy",
+      "Bass / Raymond Christ",
+      "Bass / Ring Lead",
+      "Bass / Sauceware",
+      "Bass / Sick One",
+      "Bass / Slow",
+      "Bass / State",
+      "Bass / Stuffy",
+      "Bass / Sucka",
+      "Bass / Take Care",
+      "Bass / Take Me",
+      "Bass / Tonka",
+      "Bass / Unplug",
+      "Bass / WTF",
+      "Bass / Waste",
+      "Key / Air",
+      "Key / Arp Man",
+      "Key / Backside Flip",
+      "Key / Black Rock",
+      "Key / Bless Me",
+      "Key / Blooper",
+      "Key / Brother",
+      "Key / Bubbly",
+      "Key / Bum Bump",
+      "Key / Call Back",
+      "Key / Coop",
+      "Key / Dime",
+      "Key / Dog Park",
+      "Key / Door Bell",
+      "Key / Escape",
+      "Key / Facts",
+      "Key / Foundation",
+      "Key / Fruity Flute",
+      "Key / GK",
+      "Key / Halo",
+      "Key / Inside",
+      "Key / It's Me",
+      "Key / Juicy",
+      "Key / Justice",
+      "Key / Logic",
+      "Key / Mind Hunter",
+      "Key / Mother",
+      "Key / Plastic Bell",
+      "Key / Plucker",
+      "Key / Punchy",
+      "Key / Rift",
+      "Key / Scream",
+      "Key / Slow Jam",
+      "Key / Space Dust",
+      "Key / Space Man",
+      "Key / Splash Maker",
+      "Key / Swizzle",
+      "Key / Time Machine",
+      "Key / Uncle Larry",
+      "Key / Undone",
+      "Key / Upset",
+      "Key / Upside Down",
+      "Key / Waspy",
+      "Key / Wet",
+      "Key / Whale Talk",
+      "Key / Why",
+      "Key / Wiggle",
+      "Key / Wonder",
+      "Lead / Make Me",
+      "Pad / Attack",
+      "Pad / Back Around",
+      "Pad / Back Outside",
+      "Pad / Bad Meletron",
+      "Pad / Buster",
+      "Pad / Drama",
+      "Pad / Inside Organs",
+      "Pad / Jezzus",
+      "Pad / MUFON",
+      "Pad / Mellotron Boom",
+      "Pad / Moist",
+      "Pad / Money Shot",
+      "Pad / Moog 1",
+      "Pad / Murphy",
+      "Pad / Punk 85",
+      "Pad / Station",
+      "Pad / Stuffy",
+      "Pad / The Pubs",
+      "Pad / Wing Stop",
+      "Trap Bell / Copper C",
+      "Trap Bell / Ghost C",
+      "Trap Bell / Chrome C",
+      "Trap Bell / Shatter C",
+      "Trap Bell / Heavy C",
+      "Trap Bell / Ice C",
+      "Trap Bell / Prism C",
+      "Trap Bell / Steel C",
+      "Trap Bell / Night C",
+      "Trap Bell / Amber C",
+      "Trap Bell / Hollow C",
+      "Trap Bell / Diamond C",
+      "TODB Rail / Traction C4",
+      "TODB Rail / Brake C4",
+      "TODB Rail / Air Gate C4"
+    ],
+    "value": "Element / Mid Pluck"
+  },
+  "sampleBlend": {
+    "label": "Sample layer",
+    "min": 0,
+    "max": 1,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "sampleTune": {
+    "label": "Sample fine tuning",
+    "min": -24,
+    "max": 24,
+    "value": 0,
+    "unit": "st",
+    "log": false
+  },
+  "sampleStart": {
+    "label": "Sample start",
+    "min": 0,
+    "max": 0.9,
+    "value": 0,
+    "unit": "%",
+    "log": false
+  },
+  "sampleLoop": {
+    "label": "Sample sustain",
+    "options": [
+      "one-shot",
+      "loop"
+    ],
+    "value": "one-shot"
+  },
+  "patchGain": {
+    "label": "Patch level",
+    "min": 0.25,
+    "max": 16,
+    "value": 1,
+    "unit": "×",
+    "log": false
+  }
+}

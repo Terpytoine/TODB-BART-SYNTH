@@ -1,0 +1,12 @@
+.git/
+.zig*/
+build/
+Resources/
+work/world-check-cache/
+*.exe
+*.vst3
+*.pdb
+*.obj
+*.o
+*.lib
+*.res
